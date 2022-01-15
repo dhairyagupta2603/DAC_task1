@@ -1,32 +1,42 @@
 **20BRS1077**
 # Problem Statement 
-This should be a brief description of the domain of your dataset (e.g. if it is the Titanic Dataset then write about the ship, the incident that happened, what you're trying to do with the data).
+This data set consists of Placement data of students in a XYZ campus. It includes secondary and higher secondary school percentage and specialization. It also includes degree specialization, type and Work experience and salary offers to the placed students
 ## Dataset
 
-The dataset used is the [Name of the Dataset](Download link) from (source of download e.g Kaggle). If the task is a classification task, then you must specify the number of classes and give a 1 line description of each class as follows(example of Iris Dataset). 
+The dataset used is the Campus Recruitment https://www.kaggle.com/benroshan/factors-affecting-campus-placement from Kaggle. 
 
-The 3 class labels are:
+The class labels are:
 <br>
 
-**1. Iris Setosa:** Given iris flower belongs to the Setosa species
-<br>
-**2. Iris Virginica:** Given iris flower belongs to the Virginica species
-<br>
-**3. Iris Versicolor:** Given iris flower belongs to the Versicolor species
+**sl_no:** Serial Number
 
-If the task is a regression task, then explain the target variable and give brief statistics.(e.g. Housing Prices)
+**gender:** Gender- Male='M',Female='F'
 
-**Target Variable: SalePrice**
-<br>
-<br>
-Sale Price refers to the selling price of the house.
-<br>
-**Mean Selling Price:** 121,000$
-<br>
-**Max Selling Price:** 1,000,000$
-<br>
-**Min Selling Price:** 45,000$
+**ssc_p:** Secondary Education percentage- 10th Grade
 
+**ssc_b:** Board of Education- Central/ Others
+
+**hsc_p:** Higher Secondary Education percentage- 12th Grade
+
+**hsc_b:** Board of Education- Central/ Others
+
+**hsc_s:** Specialization in Higher Secondary Education
+
+**degree_p:** Degree Percentage
+
+**degree_t:** Under Graduation(Degree type)- Field of degree education
+
+**workex:** Work Experience
+
+**etest_p:** Employability test percentage ( conducted by college)
+
+**specialisation:** Post Graduation(MBA)- Specialization
+
+**mba_p:** MBA percentage
+
+**status:** Status of placement- Placed/Not placed
+
+**salary:** Salary offered by corporate to candidates
 
 ## Model(s) Used
 
