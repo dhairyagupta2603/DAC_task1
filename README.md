@@ -7,36 +7,36 @@ The dataset used is the Campus Recruitment https://www.kaggle.com/benroshan/fact
 
 The class labels are:
 <br>
+-
+**-sl_no:** Serial Number
 
-**sl_no:** Serial Number
+**-gender:** Gender- Male='M',Female='F'
 
-**gender:** Gender- Male='M',Female='F'
+**-ssc_p:** Secondary Education percentage- 10th Grade
 
-**ssc_p:** Secondary Education percentage- 10th Grade
+**-ssc_b:** Board of Education- Central/ Others
 
-**ssc_b:** Board of Education- Central/ Others
+**-hsc_p:** Higher Secondary Education percentage- 12th Grade
 
-**hsc_p:** Higher Secondary Education percentage- 12th Grade
+**-hsc_b:** Board of Education- Central/ Others
 
-**hsc_b:** Board of Education- Central/ Others
+**-hsc_s:** Specialization in Higher Secondary Education
 
-**hsc_s:** Specialization in Higher Secondary Education
+**-degree_p:** Degree Percentage
 
-**degree_p:** Degree Percentage
+**-degree_t:** Under Graduation(Degree type)- Field of degree education
 
-**degree_t:** Under Graduation(Degree type)- Field of degree education
+**-workex:** Work Experience
 
-**workex:** Work Experience
+**-etest_p:** Employability test percentage ( conducted by college)
 
-**etest_p:** Employability test percentage ( conducted by college)
+**-specialisation:** Post Graduation(MBA)- Specialization
 
-**specialisation:** Post Graduation(MBA)- Specialization
+**-mba_p:** MBA percentage
 
-**mba_p:** MBA percentage
+**-status:** Status of placement- Placed/Not placed
 
-**status:** Status of placement- Placed/Not placed
-
-**salary:** Salary offered by corporate to candidates
+**-salary:** Salary offered by corporate to candidates
 
 ## Model(s) Used
 
