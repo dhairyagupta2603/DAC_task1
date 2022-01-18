@@ -27,14 +27,14 @@ The class labels are:
 </ol>
 
 ## Model(s) Used
-I used 3 classification algorithms on the dataset, these are discussed below
+I used 2 classification algorithms on the dataset, these are discussed below
 
 ### 1. Decision Trees:
 Decision Trees are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.
 A tree can be seen as a piecewise constant approximation. Decision trees use multiple algorithms to decide to split a node into two or more sub-nodes. The creation of sub-nodes increases the homogeneity of resultant sub-nodes. 
 Purity of the node increases with respect to the target variable. The decision tree splits the nodes on all available variables and then selects the split which results in most homogeneous sub-nodes.
 
-### 3. Logistic Regression
+### 2. Logistic Regression
 Logistic regression (LR) is basically a supervised classification algorithm. In a classification problem, the target variable(or output), y, can take only discrete values for a given set of features(or inputs),X.
 The model builds a regression model to predict the probability that a given data entry belongs to the category numbered as “1”. Just like Linear regression assumes that the data follows a linear function, Logistic regression models the data using the sigmoid function.
 The setting of the threshold value is a very important aspect of Logistic regression and is dependent on the classification problem itself.
